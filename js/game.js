@@ -183,7 +183,7 @@ function update(delta){
 		}
 	}
 
-	console.log(game.go.missile);
+	// console.log(game.go.missile);
 	for(var i = 0; i<game.go.missile.length; i++){
 		game.go.missile[i].update(delta, game.go.player);
 
