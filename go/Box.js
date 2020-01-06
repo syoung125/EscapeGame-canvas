@@ -8,8 +8,6 @@ class Box{
 		this.width = width;
 		this.height = height;
 		this.type = type;
-		this.decideColor();
-
 		this.initPath();
 	}
 
@@ -20,7 +18,7 @@ class Box{
 	}
 
 	draw(ctx){
-		ctx.fillStyle = this.fill;
+		ctx.fillStyle = this.decideColor();
 		ctx.fill(this.path);
 	}
 
@@ -31,13 +29,15 @@ class Box{
 	decideColor(){
 		switch(this.type){
 			case 1:
-				this.fill = "#999999";
-				break;
+				return "#999999";	// wall
 			case 2:
-				this.fill = "#CA64EA";
-				break;
+				return "#CA64EA";	// finish line
 			default:
-				this.fill = "#000000";
+				return "#000000";	// background
 		}
+	}
+
+	setType(type){
+		this.type = type;
 	}
 }
