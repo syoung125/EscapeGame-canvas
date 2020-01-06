@@ -168,7 +168,7 @@ class Enemy{
 
 	setShootMissile(heading){
 		if(!this.isShooting){
-			console.log('Shoot missle');
+			// console.log('Shoot missle');
 			this.isShooting = true;
 			this.timeElapsedMissile = 0;
 			var tdx = (heading.x - this.x)/Math.abs(heading.x - this.x);
