@@ -21,7 +21,7 @@ Shoot the tiny head of enemies, they will fade away.
 ### Defense
 You can defend yourself by building boxes.<Br/>
 Press 'b' box. While pressing 'b', press the arrow keys to decide the location of box.<br/>
-you can only put the box around you (up, down, left, right).
+you can only put the box surrounding you (up, down, left, right).
 
 ## Demonstration video
 https://youtu.be/f3XZqWS9UvI
