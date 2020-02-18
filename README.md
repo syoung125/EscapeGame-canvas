@@ -1,5 +1,6 @@
 # EscapeGame
-USJ WEB Individual Assignment 2 - Canvas Game
+USJ WEB Individual Assignment 2 - Canvas Game<Br/>
+![sampleImg](/sample.PNG)
 
 ## How to play?
 * Use arrow key
