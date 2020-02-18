@@ -7,9 +7,11 @@ USJ WEB Individual Assignment 2 - Canvas Game<Br/>
 
 ### Enemies
 There are three types of enemies.<Br/>
+
 > 1. Fixed enemies
 > 2. Rotating enemies
 > 3. Moving enemies  
+<br/>
 When you're detecting by enemies, your health will be damaged.
 Be careful! Some enemies will shoot missile to you when they detect you, and it will follow you.
 
